@@ -83,7 +83,7 @@ with col2:
 with col3:
     # Display messages
     st.write("### Birthday Wishes from Friends")
-    if st.button("Para Lima: Refresh Messages"):
+    if st.button("Click this button liam..."):
         df = pd.read_csv('messages.csv')
         for index, row in df.iterrows():
             st.write(f"**{row['name']}**: {row['message']}")
